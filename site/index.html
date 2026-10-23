@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PataFeliz – Regalos para mascotas</title>
+<style>
+:root{--c:#e8590c;--bg:#fffaf5}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:var(--bg);color:#222}
+header{background:var(--c);color:#fff;padding:2rem 1rem;text-align:center}
+header h1{margin:0}main{max-width:960px;margin:auto;padding:1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}
+.card{background:#fff;border-radius:12px;padding:1rem;box-shadow:0 1px 6px #0002;display:flex;flex-direction:column}
+.e{font-size:4rem;text-align:center}.p{font-weight:700;font-size:1.3rem}
+a.b{margin-top:auto;background:var(--c);color:#fff;text-decoration:none;text-align:center;padding:.7rem;border-radius:8px}
+footer{text-align:center;padding:2rem;font-size:.85rem;color:#666}
+</style></head><body>
+<header><h1>🐾 PataFeliz</h1><p>Regalos personalizados para tu mascota · Navidad 2026</p></header>
+<main><div class="grid" id="g"></div></main>
+<footer>Envío 5–10 días laborables · Devolución 14 días · contacto@patafeliz.example</footer>
+<script>
+fetch('products.json').then(r=>r.json()).then(ps=>{
+ g.innerHTML=ps.map(p=>`<div class="card"><div class="e">${p.emoji}</div><h3>${p.name}</h3><p>${p.desc}</p><div class="p">${p.price.toFixed(2)} €</div><a class="b" href="${p.link}">Comprar</a></div>`).join('')})
+</script></body></html>

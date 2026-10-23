@@ -1,0 +1,8 @@
+[
+  {"id":"collar","name":"Collar personalizado con nombre","desc":"Grabado con el nombre de tu mascota. Ideal regalo de Navidad.","price":19.90,"emoji":"🐕","link":"https://buy.stripe.com/REEMPLAZAR_1"},
+  {"id":"manta","name":"Manta polar con foto de tu mascota","desc":"Suave y lavable, impresa con la foto que elijas.","price":29.90,"emoji":"🛏️","link":"https://buy.stripe.com/REEMPLAZAR_2"},
+  {"id":"taza","name":"Taza 'Mamá/Papá de perro/gato'","desc":"Cerámica 330 ml con diseño personalizado.","price":14.90,"emoji":"☕","link":"https://buy.stripe.com/REEMPLAZAR_3"},
+  {"id":"comedero","name":"Comedero antivoracidad","desc":"Ralentiza la comida y mejora la digestión.","price":16.90,"emoji":"🥣","link":"https://buy.stripe.com/REEMPLAZAR_4"},
+  {"id":"cepillo","name":"Cepillo quitapelos autolimpiable","desc":"Un botón para expulsar el pelo. Perros y gatos.","price":12.90,"emoji":"🪮","link":"https://buy.stripe.com/REEMPLAZAR_5"},
+  {"id":"calendario","name":"Calendario de adviento para mascotas","desc":"24 premios saludables. Edición Navidad.","price":24.90,"emoji":"🎄","link":"https://buy.stripe.com/REEMPLAZAR_6"}
+]
